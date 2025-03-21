@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
  
 const QuizPage = () => {
-  const { id } = useParams();
+  const { id } = useParams(); 
   const [quiz, setQuiz] = useState(null);
   const [answers, setAnswers] = useState([]);
   const [score, setScore] = useState(null);
