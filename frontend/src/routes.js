@@ -5,7 +5,7 @@ import TeacherDashboard from "./pages/TeacherDashboard";
 import AdminDashboard from "./pages/AdminDashboard";
 import QuizPage from "./pages/QuizPage";
 
-const AppRoutes = () => {
+const AppRoutes = () => { 
   return (
     <Router>
       <Routes>
