@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const StudentDashboard = () => {
-  const [quizzes, setQuizzes] = useState([]);
+  const [quizzes, setQuizzes] = useState([]); 
   const [attendance, setAttendance] = useState(0);
   const navigate = useNavigate();
 
